@@ -1,0 +1,47 @@
+/* Mobile */
+@media screen and (max-width: 740px) {
+}
+    /* Mobile & Tablet */
+@media screen and (max-width: 1239px) {
+}
+/* Desktop */
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+    .app{
+        padding: 0 5%;
+    }
+    .intro{
+        padding-right: 0;
+        text-align: center;
+    }
+    .rate-item{
+        height: 90px !important;
+    }
+    .rate-item__star{
+        margin-bottom: 15px;
+    }
+    .rate-item__second, .rate-item__third{
+        margin-left: 0 !important;
+    }
+
+    .feadback-box__second, .feadback-box__third{
+        width: 100%;
+        margin-top: 16px !important;
+    }
+    .feadback-box__comment{
+        padding-left: 100px;
+    }
+    .rate .rate-item{
+        width: 100%;
+        display: inherit;
+        text-align: center;
+    }
+    .attribution{
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 1024px) {
+     
+}
+    

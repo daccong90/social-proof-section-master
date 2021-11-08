@@ -1,0 +1,142 @@
+:root
+{
+    --primaly-color : #502050;
+    --primaly-color-2 : hsl(300, 43%, 22%);
+}
+.app{
+    padding-left: 10%;
+    padding-right:10%;
+}
+.heading{
+    margin-top: 125px;   
+}
+.intro{
+    padding-right: 17%;
+}
+.intro .intro-title{
+    font-size : 4rem;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: var(--primaly-color);
+}
+.intro .intro-content{
+    color: var(--primaly-color);
+    font-size : 1.5rem;
+    line-height: 2.4rem;
+    margin-top: 24px;
+    text-align: left;
+}    
+
+.rate .rate-list{
+    margin: 0;
+    max-width: 100%;
+}   
+.rate .rate-item{
+    display: flex;
+    width: 80%;
+    height: 59px;
+    background-color: #F7F2F7;
+    border-radius: 7px;
+    font-size : 1.5rem;
+    margin: 0 0 16px;
+    padding: 12.8px 24px;
+    text-align: left;
+}
+.rate .rate-item__second{
+    margin-left: 10%;
+}
+.rate .rate-item__third{
+    margin-left: 20%;
+}
+.rate-item__content{
+    color: var(--primaly-color-2);
+    font-weight: 700;
+    font-size : 1.5rem;
+    margin: 9.6px 0 0 24px;
+}
+.rate-item__star{
+    margin: 9.6px 0 0 24px;
+}
+.rate-item__star img{
+    margin-right: 3px;
+}
+.rate-item__content .rate-item__star{
+    display: inline-block;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main .feedback-box{
+    background-color: #502050;
+    border-radius: 7px;
+    font-size : 1.36rem;
+    padding: 40px 28.8px 36px;
+    margin: 0 1%;
+    min-height: 200px;
+    align-self: center;
+} 
+.main .feadback-box__second{
+    margin-top: 50px;
+}
+.main .feadback-box__third{
+    margin-top: 100px;
+}
+.main .feedback-box .feedback-box__user{
+    display: flex;
+    align-items: center;
+}
+.feedback-box__user--avt{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+} 
+
+.feedback-user{
+    margin-left: 22px;
+}
+.feedback-user__name{
+    color: #FFFFFF;
+    font-size: 1.36rem;
+    font-weight: 700;
+    margin: 3px;
+}
+.feedback-user__status{
+    color: #EE68A4;
+    margin: 3px;
+    font-size: 1.36rem;
+}
+.feedback-box__comment{
+    margin-top: 32px;
+    color: #FFFFFF;
+    font-size: 1.36rem;
+    line-height: 24px;
+}
+.attribution{
+    margin-top: 100px;
+    align-items: center;
+    font-size: 1.5rem;
+    
+    padding: 8px 8px 4.8px;
+    text-align: center;
+    color: #502050;
+
+}
+.attribution a{
+    color: #502050;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    padding: 8px;
+}
+.attribution a:hover{
+    color: #F7F2F7;
+    font-size: 1.6rem;
+    background-color: #502050;
+}
+                 
+               
+ 
+
+  
+       
